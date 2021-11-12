@@ -1,0 +1,103 @@
+.container{
+    display: grid;
+    grid-template-columns: 11rem 1fr;
+    justify-content: start;
+    height: 100vh;
+    
+}
+
+.nav{
+    display: grid;
+    border-right: 1px solid rgb(202, 202, 202)
+}
+.App{
+    display: grid;
+    grid-template-columns: 1fr;
+    list-style-type: none;
+    justify-content: center;
+    align-content: flex-start;
+    width: 100%;
+    margin-left: -2.5rem;
+    margin-top: -.1rem;
+    margin-bottom: -.1rem;
+    text-align: center;
+    
+}
+
+.list{
+    display: grid;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: yellowgreen;
+    padding: 1rem;
+    
+    cursor: pointer;
+}
+.active{
+    text-decoration: none;
+    color:white;
+    background-color: yellowgreen;
+  }
+
+.component{
+    display: grid;
+    justify-items: center;
+    align-content: flex-start;
+    height: 82vh;
+    margin: 3rem;
+    background-color: whitesmoke;
+    color: black;
+    box-shadow: 5px 5px 20px gray;
+    padding: 10px;
+    border-radius: 20px;
+
+    &_sec{
+        display: grid;
+        &-btn{
+            display: grid;
+            padding: 10px 20px;
+            background-color: yellowgreen;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            justify-self: center;
+            cursor: pointer;
+        }
+    
+        &-heading{
+            color: gray;
+        }
+    }
+
+}
+
+.topic{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 3px;
+    list-style-type: none;
+    justify-self: start;
+
+    &_list{
+        padding: 8px 20px;
+        border: 2px solid yellowgreen;
+        color: black;
+        text-decoration: none;
+        border-radius: 10px;
+        
+    }
+    &_sec{
+        padding: 170px 500px;
+        margin-top: 20px;
+        justify-self: start;
+        background-color: rgb(194, 194, 194);
+        border-radius: 5px;
+        margin-left: 40px;
+    }
+
+}
+  
